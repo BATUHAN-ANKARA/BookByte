@@ -7,7 +7,7 @@ const app = express()
 configs.serverConfig.initialServerConfig()
 
 const PORT = process.env.PORT || 3000
-
+//ladbfjdsbfkjdabfkjdsbakf
 app.use(express.json())
 
 db.mongooseConnection.connectMongoDB().then(() => {
